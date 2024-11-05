@@ -55,13 +55,34 @@
     flex-direction: column;
     justify-content: space-around;
 }
+input[type=search]{
+    width: 80%;
+    border: 1px solid #ccc;
+    background-color: #f1eeee;
+    border-radius: 2px;
+    height: 100%;
+}
 
+
+input[type=date]{
+    width: 80%;
+    border: 1px solid #ccc;
+    background-color: #f1eeee;
+    border-radius: 2px;
+    height: 150%;
+}
+button[type=submit]{
+    width: 80%;
+    background-color: green;
+    border-radius: 2px;
+    height: 150%;
+}
 #trip-result {
     color: green;
 }
 
 .cell {
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     height: 50vh;
     width: 40vh;
