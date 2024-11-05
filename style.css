@@ -1,0 +1,84 @@
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 3vh;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trip-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#trip-result {
+    color: green;
+}
+
+.cell {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 50vh;
+    width: 40vh;
+    margin: 10vh;
+    border-radius: 5%;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    padding-bottom: 0vh;
+    margin-bottom: 0vh;
+}
+
+h3 {
+    color: black;
+    margin-right: 4vh;
+}
